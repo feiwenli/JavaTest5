@@ -31,6 +31,7 @@ private int page;
 private String sort = "ASC";
 ```
 编写Resolver 将RequestParam 中的pageSize 和page 两个属性解析成Page对象。
+
 7、查询film 列表，/GET 请求，通过curl 传入pageSize 和page。方法上使用Page对象接收。
 ```
 @GetMapping("/")
